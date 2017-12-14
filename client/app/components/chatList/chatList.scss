@@ -1,0 +1,19 @@
+.chatList {
+  color: red;
+}
+.message_not_delivered {
+  position: relative;
+  background-color: rgb(238,238,238);
+}
+.message_not_delivered .md-list-item-text {
+  opacity: .5;
+}
+.loader-wrapper {
+  position: absolute;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  top: 50%;
+}
+.message-area{
+  font-size: 16px;
+}

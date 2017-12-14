@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "face": "https://media0.giphy.com/media/l3mZ8b3iL2Ldq4HzW/giphy.gif",
+    "name": "Cassio Zen",
+    "email": "cassiozen@gmail.com"
+  },
+  {
+    "id": "2",
+    "face": "https://media1.giphy.com/media/fGd4KFpwHoHja/giphy.gif",
+    "name": "Dan Abramov",
+    "email": "gaearon@somewhere.com"
+  },
+  {
+    "id": "3",
+    "face": "https://media2.giphy.com/media/3o6fJ0QhTrl2droaeA/giphy.gif",
+    "name": "Pete Hunt",
+    "email": "floydophone@somewhere.com"
+  },
+  {
+    "id": "4",
+    "face": "https://media1.giphy.com/media/26tn9LLWaq1j4GO5O/giphy.gif",
+    "name": "Paul O’Shannessy",
+    "email": "zpao@somewhere.com"
+  },
+  {
+    "id": "5",
+    "face": "https://media3.giphy.com/media/S3Ot3hZ5bcy8o/giphy.gif",
+    "name": "Ryan Florence",
+    "email": "rpflorence@somewhere.com"
+  },
+  {
+    "id": "6",
+    "face": "https://media2.giphy.com/media/3o6nUO1QvaY12Q2x5m/giphy.gif",
+    "name": "Sebastian Markbage",
+    "email": "sebmarkbage@here.com"
+  }
+]

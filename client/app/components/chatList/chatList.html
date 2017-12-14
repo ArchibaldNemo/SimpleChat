@@ -1,0 +1,28 @@
+<div flex-gt-sm="50" flex>
+  <md-toolbar layout="row" class="md-hue-3">
+    <div class="md-toolbar-tools center-align">
+        <md-button class="md-raised" ng-click="$ctrl.goToContacts()">Contacts</md-button>
+    </div>
+  </md-toolbar>
+  <md-content>
+    <md-list class="md-dense" flex>
+      <md-list-item class="md-2-line" ng-repeat="item in $ctrl.messages" ng-class="{'message_not_delivered' : !item.delivered}">
+        <img ng-src="{{item.who === 'contact' ? $ctrl.contact.face : $ctrl.myFace }}"
+             class="md-avatar" alt="{{item.name}}" />
+        <div class="md-list-item-text" layout="column">
+          <h3>{{ item.who === 'contact' ? $ctrl.contact.name: 'me' }}</h3>
+          <p>{{ item.text }}</p>
+        </div>
+        <div ng-if="!item.delivered" class="loader-wrapper" layout="row" layout-sm="column" layout-align="space-around">
+          <md-progress-circular md-mode="indeterminate"></md-progress-circular>
+        </div>
+      </md-list-item>
+    </md-list>
+    <md-input-container class="md-block">
+      <textarea class="message-area" ng-model="$ctrl.currentMessage" md-maxlength="150" rows="2" md-select-on-focus></textarea>
+    </md-input-container>
+    <div class="center-align">
+      <md-button class="md-raised md-primary" ng-click="$ctrl.sendMessage()">Send</md-button>
+    </div>
+ </md-content>
+</div>
